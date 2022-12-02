@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" prefHeight="185.0" prefWidth="243.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tech.tomberg.taskscheduler.controller.LoginView">
+   <children>
+      <TextField fx:id="username" layoutX="47.0" layoutY="44.0" />
+      <PasswordField fx:id="password" layoutX="47.0" layoutY="105.0" />
+      <Button fx:id="loginButton" layoutX="47.0" layoutY="142.0" mnemonicParsing="false" onAction="#tryToLogin" prefHeight="25.0" prefWidth="70.0" text="Login" />
+      <Button layoutX="126.0" layoutY="142.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="25.0" prefWidth="70.0" text="Back" />
+      <Label layoutX="95.0" layoutY="18.0" text="Username" />
+      <Label layoutX="97.0" layoutY="77.0" text="Password" />
+   </children>
+</AnchorPane>

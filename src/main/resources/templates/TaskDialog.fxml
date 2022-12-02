@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="289.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tech.tomberg.taskscheduler.controller.AppView">
+   <children>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="21.0" prefHeight="22.0" prefWidth="90.0" text="Id">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="57.0" prefHeight="22.0" prefWidth="90.0" text="Header">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" layoutX="25.0" layoutY="116.0" prefHeight="22.0" prefWidth="90.0" text="Description">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="taskUpdateId" alignment="CENTER" disable="true" editable="false" layoutX="121.0" layoutY="21.0" prefHeight="26.0" prefWidth="68.0" />
+      <CheckBox fx:id="taskUpdateIsDone" layoutX="205.0" layoutY="21.0" mnemonicParsing="false" text="Done">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="taskUpdateHeader" layoutX="121.0" layoutY="57.0" prefHeight="26.0" prefWidth="278.0" />
+      <TextArea fx:id="taskUpdateDescription" layoutX="121.0" layoutY="94.0" prefHeight="66.0" prefWidth="278.0" wrapText="true" />
+      <DatePicker fx:id="taskUpdateDate" layoutX="121.0" layoutY="168.0" prefHeight="26.0" prefWidth="278.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="37.0" layoutY="170.0" prefHeight="22.0" prefWidth="66.0" text="Date">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="taskUpdateTime" layoutX="120.0" layoutY="203.0" prefHeight="26.0" prefWidth="278.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="37.0" layoutY="205.0" prefHeight="22.0" prefWidth="66.0" text="Time">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonUpdate" layoutX="165.0" layoutY="245.0" mnemonicParsing="false" onAction="#updateOnClick" text="Save">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonCancel" layoutX="230.0" layoutY="245.0" mnemonicParsing="false" onAction="#cancelOnClick" text="Cancel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

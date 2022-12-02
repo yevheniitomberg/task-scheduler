@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" prefHeight="120.0" prefWidth="247.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tech.tomberg.taskscheduler.controller.MainView">
+   <children>
+      <Label fx:id="test_label" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="25.0" prefHeight="22.0" prefWidth="200.0" text="Task Manager By Yevhenii Tomberg" textAlignment="CENTER" />
+      <Button fx:id="test_button" layoutX="63.0" layoutY="68.0" mnemonicParsing="false" onAction="#loginOnClick" text="Login" />
+      <Button fx:id="test_button1" layoutX="124.0" layoutY="68.0" mnemonicParsing="false" onAction="#registerOnClick" text="Register" />
+   </children>
+</AnchorPane>
