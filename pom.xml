@@ -8,13 +8,15 @@
         <version>3.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>demo1</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>demo1</name>
-    <description>demo1</description>
+    <groupId>tech.tomberg</groupId>
+    <artifactId>TaskScheduler</artifactId>
+    <version>1</version>
+    <name>TaskScheduler</name>
+    <description>TaskScheduler</description>
     <properties>
-        <java.version>13</java.version>
+        <java.version>17</java.version>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
     </properties>
     <dependencies>
         <dependency>
