@@ -199,7 +199,7 @@ public class AppView {
     }
 
     public void logOut(ActionEvent actionEvent) throws IOException {
+        user = null;
         FXMLTools.setSceneAndDropBeans(context, "/templates/MainView.fxml", (Stage) buttonLogOut.getScene().getWindow(), "Task Manager");
-
     }
 }
